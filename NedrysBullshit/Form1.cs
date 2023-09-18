@@ -37,6 +37,7 @@ namespace NedrysBullshit
             axWindowsMediaPlayer1.settings.setMode("loop", true);
 
             axWindowsMediaPlayer1.uiMode = "none";
+            axWindowsMediaPlayer1.fullScreen = true;
 
             this.FormClosing += Form1_FormClosing;
             this.FormClosed += Form1_FormClosed;
